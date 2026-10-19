@@ -1,0 +1,53 @@
+name: Refresh QCfun public index
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 3 * * *'
+  push:
+    branches: [main]
+    paths: [.github/workflows/refresh-public-index.yml]
+permissions:
+  contents: write
+concurrency:
+  group: qcfun-public-index
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.repository == 'qyh2353/QCfun'
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Refresh public rule metadata only
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        shell: python
+        run: |
+          import os, json, urllib.request, base64, re
+          from datetime import datetime, timezone
+          endpoint = 'https://api.github.com/repos/'+os.environ['REPOSITORY']+'/contents/distribution/v1/manifest.json'
+          headers = {'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}
+          with urllib.request.urlopen(urllib.request.Request(endpoint,headers=headers),timeout=15) as response:
+              old = json.load(response)
+          data = json.loads(base64.b64decode(old['content']))
+          count = 0
+          for library in data['libraries']:
+              try:
+                  with urllib.request.urlopen(library['base']+'/index.json',timeout=15) as response:
+                      rows = json.load(response)
+                  assert isinstance(rows,list) and 0 < len(rows) <= 500
+                  assert all(re.fullmatch(r'[A-Za-z0-9_.-]{1,80}',r['name']) and isinstance(r.get('version'),str) for r in rows)
+                  library['index'] = [{k:r[k] for k in ('name','version','lastUpdate') if k in r} for r in rows]
+                  library['fetchedAt'] = datetime.now(timezone.utc).isoformat()
+                  count += 1
+              except Exception:
+                  print('Upstream unavailable; retained last known metadata: '+library['id'])
+          if not count:
+              raise SystemExit('No upstream responded; manifest left unchanged')
+          data['generatedAt'] = datetime.now(timezone.utc).isoformat()
+          data['revision'] = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+          payload = {'message':'chore: refresh public rule index metadata','sha':old['sha'],'branch':'main','content':base64.b64encode((json.dumps(data,ensure_ascii=False,indent=2)+'\n').encode()).decode()}
+          request = urllib.request.Request(endpoint,data=json.dumps(payload).encode(),headers={**headers,'Content-Type':'application/json'},method='PUT')
+          with urllib.request.urlopen(request,timeout=20) as response:
+              result = json.load(response)
+          print('Published public index: '+result['commit']['sha'])
