@@ -1,0 +1,8 @@
+*.apk
+*.zip
+*.jks
+*.keystore
+.env*
+local.properties
+signing.properties
+.data/
