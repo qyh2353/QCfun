@@ -1,0 +1,310 @@
+{
+  "schema": 1,
+  "revision": "2026-10-19.1",
+  "generatedAt": "2026-10-19T11:28:37.400164+00:00",
+  "description": "Public rule index metadata only. No user data, credentials or media files.",
+  "libraries": [
+    {
+      "id": "official",
+      "name": "Kazumi 官方库",
+      "repository": "https://github.com/Predidit/KazumiRules",
+      "base": "https://raw.githubusercontent.com/Predidit/KazumiRules/main",
+      "fetchedAt": "2026-10-19T11:28:26.850100+00:00",
+      "index": [
+        {
+          "name": "7sefun",
+          "version": "1.3",
+          "lastUpdate": 1786362131000
+        },
+        {
+          "name": "aafun",
+          "version": "1.2",
+          "lastUpdate": 1787289623000
+        },
+        {
+          "name": "AGE",
+          "version": "1.5",
+          "lastUpdate": 1758092260000
+        },
+        {
+          "name": "akianime",
+          "version": "1.4",
+          "lastUpdate": 1786942825000
+        },
+        {
+          "name": "baimao",
+          "version": "1.0",
+          "lastUpdate": 1769573721000
+        },
+        {
+          "name": "dalvdm",
+          "version": "1.2",
+          "lastUpdate": 1792049112000
+        },
+        {
+          "name": "DM84",
+          "version": "1.4",
+          "lastUpdate": 1770015775000
+        },
+        {
+          "name": "ezdmw",
+          "version": "1.2",
+          "lastUpdate": 1786883419000
+        },
+        {
+          "name": "giriGiriLove",
+          "version": "2.5",
+          "lastUpdate": 1791988046000
+        },
+        {
+          "name": "LMM",
+          "version": "2.3",
+          "lastUpdate": 1792049112000
+        },
+        {
+          "name": "mgnacg",
+          "version": "1.2",
+          "lastUpdate": 1792059072000
+        },
+        {
+          "name": "moonci",
+          "version": "1.1",
+          "lastUpdate": 1792401354000
+        },
+        {
+          "name": "mutefun",
+          "version": "1.4",
+          "lastUpdate": 1792059072000
+        },
+        {
+          "name": "MXdm",
+          "version": "2.4",
+          "lastUpdate": 1790853597000
+        },
+        {
+          "name": "sorani",
+          "version": "1.0",
+          "lastUpdate": 1783910492000
+        },
+        {
+          "name": "xfdmneo",
+          "version": "1.1",
+          "lastUpdate": 1772964002000
+        },
+        {
+          "name": "xfdmnext",
+          "version": "1.1",
+          "lastUpdate": 1790868808000
+        }
+      ]
+    },
+    {
+      "id": "community-chou",
+      "name": "ChouChiu 社区归档",
+      "repository": "https://github.com/ChouChiu/KazumiRules",
+      "base": "https://raw.githubusercontent.com/ChouChiu/KazumiRules/main",
+      "fetchedAt": "2026-10-19T11:28:32.118542+00:00",
+      "index": [
+        {
+          "name": "7sefun",
+          "version": "1.2",
+          "lastUpdate": 1770510516000
+        },
+        {
+          "name": "AGE",
+          "version": "1.5",
+          "lastUpdate": 1758092260000
+        },
+        {
+          "name": "baimao",
+          "version": "1.0",
+          "lastUpdate": 1769573721000
+        },
+        {
+          "name": "ciyuancheng",
+          "version": "2.0",
+          "lastUpdate": 1781270758000
+        },
+        {
+          "name": "DM84",
+          "version": "1.4",
+          "lastUpdate": 1770015775000
+        },
+        {
+          "name": "dmghg",
+          "version": "1.0",
+          "lastUpdate": 1781338690000
+        },
+        {
+          "name": "enlie",
+          "version": "1.0",
+          "lastUpdate": 1773203174000
+        },
+        {
+          "name": "fcdm",
+          "version": "1.0",
+          "lastUpdate": 1781096923000
+        },
+        {
+          "name": "giriGiriLove",
+          "version": "2.1",
+          "lastUpdate": 1772875951000
+        },
+        {
+          "name": "gpjda",
+          "version": "1.0",
+          "lastUpdate": 1771771049000
+        },
+        {
+          "name": "gugu3",
+          "version": "1.3",
+          "lastUpdate": 1780292876000
+        },
+        {
+          "name": "mgnacg",
+          "version": "1.0",
+          "lastUpdate": 1780897282000
+        },
+        {
+          "name": "mutefun",
+          "version": "1.1",
+          "lastUpdate": 1780637024000
+        },
+        {
+          "name": "mwcy",
+          "version": "1.2",
+          "lastUpdate": 1771294191000
+        },
+        {
+          "name": "MXdm",
+          "version": "2.3",
+          "lastUpdate": 1771938941000
+        },
+        {
+          "name": "omofun03",
+          "version": "1.1",
+          "lastUpdate": 1777179683000
+        },
+        {
+          "name": "qifun",
+          "version": "2.0",
+          "lastUpdate": 1781338690000
+        },
+        {
+          "name": "xfdm",
+          "version": "2.1",
+          "lastUpdate": 1780065540000
+        },
+        {
+          "name": "xfdmneo",
+          "version": "1.1",
+          "lastUpdate": 1772964002000
+        }
+      ]
+    },
+    {
+      "id": "community-xiao",
+      "name": "xiaojumaow 社区归档",
+      "repository": "https://github.com/xiaojumaow/KazumiRules",
+      "base": "https://raw.githubusercontent.com/xiaojumaow/KazumiRules/main",
+      "fetchedAt": "2026-10-19T11:28:37.400164+00:00",
+      "index": [
+        {
+          "name": "295yhw",
+          "version": "1.0",
+          "lastUpdate": 1757053179000
+        },
+        {
+          "name": "7sefun",
+          "version": "1.1",
+          "lastUpdate": 1749272828000
+        },
+        {
+          "name": "aafun",
+          "version": "1.0",
+          "lastUpdate": 1746012027000
+        },
+        {
+          "name": "AGE",
+          "version": "1.5",
+          "lastUpdate": 1758092260000
+        },
+        {
+          "name": "aowu",
+          "version": "1.0",
+          "lastUpdate": 1763203427000
+        },
+        {
+          "name": "DM84",
+          "version": "1.3",
+          "lastUpdate": 1765440316000
+        },
+        {
+          "name": "giriGiriLove",
+          "version": "1.0",
+          "lastUpdate": 1762238563000
+        },
+        {
+          "name": "gugu3",
+          "version": "1.2",
+          "lastUpdate": 1765973347000
+        },
+        {
+          "name": "hfkzm",
+          "version": "1.1",
+          "lastUpdate": 1765458559000
+        },
+        {
+          "name": "libvio",
+          "version": "0.3",
+          "lastUpdate": 1753869070000
+        },
+        {
+          "name": "MXdm",
+          "version": "2.1",
+          "lastUpdate": 1752888530000
+        },
+        {
+          "name": "NT",
+          "version": "1.2",
+          "lastUpdate": 1742531328000
+        },
+        {
+          "name": "omofun03",
+          "version": "1.0",
+          "lastUpdate": 1760342977000
+        },
+        {
+          "name": "skr",
+          "version": "0.5",
+          "lastUpdate": 1758353329000
+        },
+        {
+          "name": "tt776b",
+          "version": "1.0",
+          "lastUpdate": 1755148070000
+        },
+        {
+          "name": "WYDM",
+          "version": "1.2",
+          "lastUpdate": 1753549178000
+        },
+        {
+          "name": "xfdm",
+          "version": "1.7",
+          "lastUpdate": 1758531998000
+        },
+        {
+          "name": "yishijie",
+          "version": "1.1",
+          "lastUpdate": 1754219208000
+        },
+        {
+          "name": "ylsp",
+          "version": "1.1",
+          "lastUpdate": 1759660829000
+        }
+      ]
+    }
+  ]
+}
