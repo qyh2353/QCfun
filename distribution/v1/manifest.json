@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": "20261022T084357Z",
-  "generatedAt": "2026-10-22T08:43:57.607299+00:00",
+  "revision": "20261023T083937Z",
+  "generatedAt": "2026-10-23T08:39:37.418615+00:00",
   "description": "Public rule index metadata only. No user data, credentials, admin data or media files.",
   "libraries": [
     {
@@ -9,7 +9,7 @@
       "name": "Kazumi 官方库",
       "repository": "https://github.com/Predidit/KazumiRules",
       "base": "https://raw.githubusercontent.com/Predidit/KazumiRules/main",
-      "fetchedAt": "2026-10-22T08:43:57.176576+00:00",
+      "fetchedAt": "2026-10-23T08:39:36.691054+00:00",
       "index": [
         {
           "name": "7sefun",
@@ -103,7 +103,7 @@
       "name": "ChouChiu 社区归档",
       "repository": "https://github.com/ChouChiu/KazumiRules",
       "base": "https://raw.githubusercontent.com/ChouChiu/KazumiRules/main",
-      "fetchedAt": "2026-10-22T08:43:57.269254+00:00",
+      "fetchedAt": "2026-10-23T08:39:36.854793+00:00",
       "index": [
         {
           "name": "7sefun",
@@ -207,7 +207,7 @@
       "name": "xiaojumaow 社区归档",
       "repository": "https://github.com/xiaojumaow/KazumiRules",
       "base": "https://raw.githubusercontent.com/xiaojumaow/KazumiRules/main",
-      "fetchedAt": "2026-10-22T08:43:57.372202+00:00",
+      "fetchedAt": "2026-10-23T08:39:36.985752+00:00",
       "index": [
         {
           "name": "295yhw",
@@ -311,7 +311,7 @@
       "name": "qldwj 动漫规则库",
       "repository": "https://github.com/qldwj/Kazuminb6Rules",
       "base": "https://raw.githubusercontent.com/qldwj/Kazuminb6Rules/main",
-      "fetchedAt": "2026-10-22T08:43:57.473241+00:00",
+      "fetchedAt": "2026-10-23T08:39:37.144332+00:00",
       "index": [
         {
           "name": "7sefun",
