@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": "20261027T090812Z",
-  "generatedAt": "2026-10-27T09:08:12.408034+00:00",
+  "revision": "20261028T094927Z",
+  "generatedAt": "2026-10-28T09:49:27.178282+00:00",
   "description": "Public rule index metadata only. No user data, credentials, admin data or media files.",
   "libraries": [
     {
@@ -9,7 +9,7 @@
       "name": "Kazumi 官方库",
       "repository": "https://github.com/Predidit/KazumiRules",
       "base": "https://raw.githubusercontent.com/Predidit/KazumiRules/main",
-      "fetchedAt": "2026-10-27T09:08:11.671071+00:00",
+      "fetchedAt": "2026-10-28T09:49:26.638692+00:00",
       "index": [
         {
           "name": "7sefun",
@@ -73,8 +73,8 @@
         },
         {
           "name": "mutefun",
-          "version": "1.4",
-          "lastUpdate": 1792059072000
+          "version": "1.5",
+          "lastUpdate": 1793146170000
         },
         {
           "name": "MXdm",
@@ -85,6 +85,11 @@
           "name": "sorani",
           "version": "1.0",
           "lastUpdate": 1783910492000
+        },
+        {
+          "name": "TvTFun",
+          "version": "1.2",
+          "lastUpdate": 1793160384000
         },
         {
           "name": "xfdmneo",
@@ -103,7 +108,7 @@
       "name": "ChouChiu 社区归档",
       "repository": "https://github.com/ChouChiu/KazumiRules",
       "base": "https://raw.githubusercontent.com/ChouChiu/KazumiRules/main",
-      "fetchedAt": "2026-10-27T09:08:11.823393+00:00",
+      "fetchedAt": "2026-10-28T09:49:26.736845+00:00",
       "index": [
         {
           "name": "7sefun",
@@ -207,7 +212,7 @@
       "name": "xiaojumaow 社区归档",
       "repository": "https://github.com/xiaojumaow/KazumiRules",
       "base": "https://raw.githubusercontent.com/xiaojumaow/KazumiRules/main",
-      "fetchedAt": "2026-10-27T09:08:11.976326+00:00",
+      "fetchedAt": "2026-10-28T09:49:26.959720+00:00",
       "index": [
         {
           "name": "295yhw",
@@ -311,7 +316,7 @@
       "name": "qldwj 动漫规则库",
       "repository": "https://github.com/qldwj/Kazuminb6Rules",
       "base": "https://raw.githubusercontent.com/qldwj/Kazuminb6Rules/main",
-      "fetchedAt": "2026-10-27T09:08:12.129841+00:00",
+      "fetchedAt": "2026-10-28T09:49:27.044529+00:00",
       "index": [
         {
           "name": "7sefun",
@@ -335,8 +340,8 @@
         },
         {
           "name": "ciyuancheng",
-          "version": "3.0",
-          "lastUpdate": 1790996212000
+          "version": "3.1",
+          "lastUpdate": 1793096646000
         },
         {
           "name": "dalvdm",
